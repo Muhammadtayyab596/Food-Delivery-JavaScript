@@ -1,0 +1,113 @@
+body {
+    font-family: 'Signika Negative' !important;
+    font-weight: 400;
+}
+
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-size: 1.9em !important;
+    font-weight: bolder;
+    color: #ffa400 !important;
+}
+
+.btn-success {
+    background-color: #ffa400 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.nav-item {
+    font-size: 1.1em;
+}
+
+.active1 {
+    border-bottom: 3px solid #ffa400 !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0px 2px 7px #948c8c !important;
+    z-index: 1;
+    /* height: 65px; */
+}
+
+.fa-bars {
+    color: #ffa400 !important;
+    font-size: 1.5em !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    border: unset !important;
+    outline: unset !important;
+    box-shadow: none !important;
+}
+
+
+/* carousel */
+
+.carousel {
+    margin-top: 60px !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 39%;
+    width: 75%;
+    text-align: center;
+    z-index: 999;
+    color: white;
+}
+
+
+/* footer :start */
+
+footer {
+    background: #202020;
+    border-bottom: 10px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* end footer */
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a i {
+    color: #666 !important;
+    font-size: 1.7em !important;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.Touch {
+    color: #ffa400 !important;
+}
+
+.card img {
+    height: 210px !important;
+}
+
+.card {
+    box-shadow: 0px 3px 8px #948c8c !important;
+}

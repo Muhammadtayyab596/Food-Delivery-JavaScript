@@ -1,0 +1,60 @@
+body {
+    background-image: url("../../images/slider-img2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.maindiv {
+    height: 100vh;
+}
+
+.card {
+    border-radius: 10px !important;
+    height: 100%;
+    background-color: white;
+    /* z-index: -1; */
+    opacity: 1;
+}
+
+.form-control {
+    /* border: 1px solid black !important; */
+}
+
+.fa-sign-in-alt {
+    font-size: 3em;
+    color: rgb(22, 29, 121) !important;
+}
+
+.division {
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    padding: 0px 25px 0px 25px !important;
+    margin-top: 30px;
+    text-align: left;
+}
+
+form label {
+    color: black !important;
+    font-weight: 500;
+}
+
+.sppp span {
+    margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .row {
+        --bs-gutter-x: 0rem !important;
+        --bs-gutter-y: 0 !important;
+        /* color: blue !important; */
+    }
+}
