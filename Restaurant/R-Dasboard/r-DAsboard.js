@@ -112,18 +112,7 @@ let addDishes = (e) => {
 
 
 
-    // Create a reference to the file we want to download
-
-    // uploadTask.snapshot.ref.getDownloadURL()
-    //     .then((url) => {
-    //         console.log(url);
-
-
-
-    //   })
-    //   .catch((error) => {
-    //       console.log(error);
-    //   })
+    
 };
 
 let getCard = () => {
@@ -168,7 +157,7 @@ let signOut = () => {
             location.href = "../../Login/login.html";
         })
         .catch((error) => {
-            // An error happened.
+          
             console.log(error);
         });
 };
